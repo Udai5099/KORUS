@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5DC;
+    display: flex;
+    
+}
+.li{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.jumbotron {
+    background-image: url("./back.png");
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+}
+
+h1.display-4 {
+    font-style: bold;
+    font-size: 120px;
+    text-align: center;
+    text-decoration-color: saddlebrown;
+    display: flex;
+}
+
+p.lead {
+    font-style: BOLD;
+    font-size: 60px;
+    text-align: center;
+}
+
+p.bold {
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+
+.col-md-6 {
+    background-color: #F5F5DC;
+    size: 20px;
+}
+p.read{
+    text-align: center;
+}
+
+#recruitment-form-container {
+    text-align: center;
+  }
+  
+  #recruitment-form {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 10px;
+    width: 100px;
+    text-align: right;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"] {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 300px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #members-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #members-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #members-list li:last-child {
+    border-bottom: none;
+  }
